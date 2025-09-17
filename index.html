@@ -12,6 +12,8 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <style>
  
@@ -21,13 +23,13 @@
 
   <!-- Announcement -->
   <div class="announcement py-2 text-center">
-    <span class="d-none d-md-inline"><i class="bi bi-cash-coin"></i> Bulk/Corporate pricing available</span>
+    <span class="d-none d-md-inline"><i class="bi bi-cash-coin"></i>&nbsp;&nbsp;Bulk orders for Offices/Corporate houses only</span>
   </div>
 
   <!-- Navbar -->
  <nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
       <img src="logo2.png" alt="Krishna Innovation">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +53,7 @@
     <div id="hero" class="carousel slide hero" data-bs-ride="carousel" data-bs-interval="4000">
       <div class="carousel-inner carousel-img">
         <div class="carousel-item active">
-          <img src="c4.webp"class="carousel-img"alt="Personalized Leather" />
+          <img src="1.png"class="carousel-img"alt="Personalized Leather" />
           <div class="hero-caption">
             <div class="container">
               <h1 class="display-5 mb-3">Personalized Accessories, Thoughtfully Made</h1>
@@ -62,17 +64,19 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="c1.png" class="carousel-img" alt="Corporate Gifting" />
+          <img src="2.png" class="carousel-img" alt="Corporate Gifting" />
           <div class="hero-caption">
             <div class="container">
-              <h1 class="display-5 mb-3">Corporate Gifting, Simplified</h1>
+              <h1 style="color: #fff;
+text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+" class="display-5 mb-3">Corporate Gifting, Simplified</h1>
               <p class="lead mb-4">Logo printing, name embossing, custom packaging & doorstep delivery.</p>
               <a href="#contact" class="btn btn-lg btn-primary px-4 rounded-pill">Get Bulk Quote</a>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="carousel-img" src="c6.png" alt="Handcrafted" />
+          <img class="carousel-img" src="3.png" alt="Handcrafted" />
           <div class="hero-caption">
             <div class="container">
               <h1 class="display-5 mb-3">Handcrafted Quality You Can Feel</h1>
@@ -91,7 +95,7 @@
   <section class="py-4 bg-white">
     <div class="container">
       <div class="row g-3 usp text-center">
-        <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-lightning-charge-fill"></i><div class="mt-2 fw-semibold">48h Express Personalization</div></div></div>
+        <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-lightning-charge-fill"></i><div class="mt-2 fw-semibold">Quick Personalization</div></div></div>
         <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-shield-check"></i><div class="mt-2 fw-semibold">Premium Quality</div></div></div>
         <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-recycle"></i><div class="mt-2 fw-semibold">Eco Options</div></div></div>
         <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-truck"></i><div class="mt-2 fw-semibold">Negotiable Delivery Prices</div></div></div>
@@ -108,25 +112,25 @@
       </div>
       <div class="row g-4">
         <div class="col-6 col-md-3">
-          <a class="category-card d-block" href="#">
+          <a class="category-card d-block">
             <img src="bags.png" alt="Bags"/>
             <span class="category-badge">Bags</span>
           </a>
         </div>
         <div class="col-6 col-md-3">
-          <a class="category-card d-block" href="#">
+          <a class="category-card d-block">
             <img src="clock.png" alt="Wallets"/>
             <span class="category-badge">Clocks</span>
           </a>
         </div>
         <div class="col-6 col-md-3">
-          <a class="category-card d-block" href="#">
+          <a class="category-card d-block">
             <img src="keychain.png" alt="Keychains"/>
             <span class="category-badge">Keychains</span>
           </a>
         </div>
         <div class="col-6 col-md-3">
-          <a class="category-card d-block" href="#">
+          <a class="category-card d-block">
             <img src="diary.png" alt="Pens"/>
             <span class="category-badge">Diaries</span>
           </a>
@@ -284,7 +288,7 @@
           <div class="card p-4 h-100 text-center">
             <i class="bi bi-gift"></i>
             <h5 class="mt-2">3. We Craft & Ship</h5>
-            <p class="text-muted">Made to order and deliver across India.</p>
+            <p class="text-muted">Made to order and deliver </p>
           </div>
         </div>
       </div>
@@ -335,7 +339,7 @@
     <div class="container text-center">
       <h3 class="mb-3">Need Custom Corporate Kits?</h3>
       <p class="lead mb-4">We curate branded boxes with notebooks, pens, bottles, diaries, badges and more.</p>
-      <a href="#contact" class="btn btn-light text-dark rounded-pill px-4">Get a Quote</a>
+      <a onclick="showAlert()" class=" btn btn-light text-dark rounded-pill px-4">Get a Quote!</a>
     </div>
   </section>
 
@@ -353,13 +357,13 @@
           </div>
         </div>
         <div class="col-md-2">
-          <h6 class="text-white">Shop</h6>
+          <!-- <h6 class="text-white">Shop</h6>
           <ul class="list-unstyled small">
             <li><a href="#categories">Bags</a></li>
             <li><a href="#categories">Wallets</a></li>
             <li><a href="#categories">Keychains</a></li>
             <li><a href="#categories">Pens</a></li>
-          </ul>
+          </ul> -->
         </div>
         <div class="col-md-3">
           <!-- <h6 class="text-white">Support</h6>
@@ -375,7 +379,7 @@
           <ul class="list-unstyled small">
             <li><i class="bi bi-telephone"></i> +91‑9991114350</li>
             <li><i class="bi bi-telephone"></i> +91-99965-32625</li>
-            <li><i class="bi bi-envelope"></i> krishnainnovation22@gmail.com</li>
+            <li><i class="bi bi-envelope"></i>&nbsp;krishnainnovation22@gmail.com</li>
             <li><i class="bi bi-geo"></i> Karnal, Haryana</li>
           </ul>
           <!-- <form class="d-flex mt-2" onsubmit="event.preventDefault(); alert('Subscribed!');">
@@ -392,9 +396,19 @@
     </div>
   </footer>
 
+
+<!-- Alert (hidden by default) -->
+<div class="alert alert-success alert-dismissible fade d-none mt-3" role="alert" id="myAlert">
+  🎉 This is a Bootstrap alert triggered after button press!
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+  function showAlert() {
+    alert("Contact us");
+  }
+
   </script>
 </body>
 </html>
