@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krishna Innovation — Personalized Gifts & Corporate Merch</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+ 
+  </style>
+</head>
+<body>
+
+  <!-- Announcement -->
+  <div class="announcement py-2 text-center">
+    <span class="d-none d-md-inline"><i class="bi bi-cash-coin"></i> Bulk/Corporate pricing available</span>
+  </div>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="logo2.png" alt="Krishna Innovation">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#personalize">Personalize</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- HERO Slider on subtle texture background -->
+  <section class="bg-texture">
+    <div id="hero" class="carousel slide hero" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner carousel-img">
+        <div class="carousel-item active">
+          <img src="https://wallpapersok.com/images/hd/1920-x-1080-night-city-bus-crx8ffed6zljy0t7.jpg"class="carousel-img"alt="Personalized Leather" />
+          <div class="hero-caption">
+            <div class="container">
+              <h1 class="display-5 mb-3">Personalized Accessories, Thoughtfully Made</h1>
+              <p class="lead mb-4">Custom bags, pens, keychains & gift sets with premium finishes.</p>
+              <a href="#bestsellers" class="btn btn-lg btn-light text-dark px-4 rounded-pill">Shop Bestsellers</a>
+              <a href="#personalize" class="btn btn-lg btn-primary px-4 rounded-pill ms-2">Start Personalizing</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="c1.png" class="carousel-img" alt="Corporate Gifting" />
+          <div class="hero-caption">
+            <div class="container">
+              <h1 class="display-5 mb-3">Corporate Gifting, Simplified</h1>
+              <p class="lead mb-4">Logo printing, name embossing, custom packaging & doorstep delivery.</p>
+              <a href="#contact" class="btn btn-lg btn-primary px-4 rounded-pill">Get Bulk Quote</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-img" src="c1.png" alt="Handcrafted" />
+          <div class="hero-caption">
+            <div class="container">
+              <h1 class="display-5 mb-3">Handcrafted Quality You Can Feel</h1>
+              <p class="lead mb-4">Vegan leather & eco options available in multiple colours.</p>
+              <a href="#categories" class="btn btn-lg btn-light text-dark px-4 rounded-pill">Browse Categories</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+    </div>
+  </section>
+
+  <!-- USP strip -->
+  <section class="py-4 bg-white">
+    <div class="container">
+      <div class="row g-3 usp text-center">
+        <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-lightning-charge-fill"></i><div class="mt-2 fw-semibold">48h Express Personalization</div></div></div>
+        <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-shield-check"></i><div class="mt-2 fw-semibold">Premium Quality</div></div></div>
+        <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-recycle"></i><div class="mt-2 fw-semibold">Eco Options</div></div></div>
+        <div class="col-6 col-md-3"><div class="card p-3"><i class="bi bi-truck"></i><div class="mt-2 fw-semibold">PAN‑India Delivery</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="py-5 bg-light">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-end mb-3">
+        <h2 class="mb-0">Shop by Category</h2>
+        <a href="products.html" class="btn btn-outline-primary rounded-pill">View All</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <a class="category-card d-block" href="#">
+            <img src="bags.png" alt="Bags"/>
+            <span class="category-badge">Bags</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a class="category-card d-block" href="#">
+            <img src="clock.png" alt="Wallets"/>
+            <span class="category-badge">Clocks</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a class="category-card d-block" href="#">
+            <img src="keychain.png" alt="Keychains"/>
+            <span class="category-badge">Keychains</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a class="category-card d-block" href="#">
+            <img src="diary.png" alt="Pens"/>
+            <span class="category-badge">Diaries</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bestsellers -->
+  <section id="bestsellers" class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-end mb-3">
+        <h2 class="mb-0">Bestsellers</h2>
+        <div>
+          <button class="btn btn-outline-secondary btn-sm me-2" data-bs-target="#bestCarousel" data-bs-slide="prev"><i class="bi bi-chevron-left"></i></button>
+          <button class="btn btn-outline-secondary btn-sm" data-bs-target="#bestCarousel" data-bs-slide="next"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+
+      <div id="bestCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner fixed-carousel">
+          <div class="carousel-item active">
+            <div class="row g-4 product">
+              <div class="col-6 col-md-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="c1.png" alt="Tote Bag"/>
+                  <div class="card-body">
+                    <div class="small text-muted mb-1">Personalized Tote</div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="price">₹799 <span class="strike">₹999</span></div>
+                      <a href="#" class="btn btn-sm btn-primary rounded-pill">Customize</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="c1.png" alt="Notebook"/>
+                  <div class="card-body">
+                    <div class="small text-muted mb-1">Name Notebook</div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="price">₹499 <span class="strike">₹599</span></div>
+                      <a href="#" class="btn btn-sm btn-primary rounded-pill">Customize</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="c1.png" alt="Keychain"/>
+                  <div class="card-body">
+                    <div class="small text-muted mb-1">Metal Keychain</div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="price">₹349</div>
+                      <a href="#" class="btn btn-sm btn-primary rounded-pill">Customize</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="c1.png" alt="Pen"/>
+                  <div class="card-body">
+                    <div class="small text-muted mb-1">Engraved Pen</div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="price">₹299</div>
+                      <a href="#" class="btn btn-sm btn-primary rounded-pill">Customize</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row g-4 product">
+              <div class="col-6 col-md-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="c1.png" alt="Wallet"/>
+                  <div class="card-body">
+                    <div class="small text-muted mb-1">Monogram Wallet</div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="price">₹1,099</div>
+                      <a href="#" class="btn btn-sm btn-primary rounded-pill">Customize</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="c1.png" alt="Pouch"/>
+                  <div class="card-body">
+                    <div class="small text-muted mb-1">Utility Pouch</div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="price">₹649</div>
+                      <a href="#" class="btn btn-sm btn-primary rounded-pill">Customize</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="c1.png" alt="Passport Cover"/>
+                  <div class="card-body">
+                    <div class="small text-muted mb-1">Passport Cover</div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="price">₹799</div>
+                      <a href="#" class="btn btn-sm btn-primary rounded-pill">Customize</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="c1.png" alt="Desk Mat"/>
+                  <div class="card-body">
+                    <div class="small text-muted mb-1">Desk Mat</div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="price">₹999</div>
+                      <a href="#" class="btn btn-sm btn-primary rounded-pill">Customize</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Personalize Steps -->
+  <section id="personalize" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2>How Personalization Works</h2>
+        <p class="text-muted">Three simple steps to create a gift they’ll love.</p>
+      </div>
+      <div class="row g-4 step">
+        <div class="col-md-4">
+          <div class="card p-4 h-100 text-center">
+            <i class="bi bi-grid-3x3-gap"></i>
+            <h5 class="mt-2">1. Choose Product</h5>
+            <p class="text-muted">Select from bags, wallets, pens, keychains & more.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 h-100 text-center">
+            <i class="bi bi-type"></i>
+            <h5 class="mt-2">2. Get a quote</h5>
+            <p class="text-muted">Contact us for a quote and customisation</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 h-100 text-center">
+            <i class="bi bi-gift"></i>
+            <h5 class="mt-2">3. We Craft & Ship</h5>
+            <p class="text-muted">Made to order and deliver across India.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2>Loved by Customers</h2>
+        <p class="text-muted">Real stories from happy clients & corporate teams.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card review p-4 h-100">
+            <div class="mb-2 text-warning">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+            </div>
+            <p>“The engraved pens and passport covers were a hit at our event. Smooth process & fast delivery.”</p>
+            <div class="small text-muted">— Aditi, HR Manager</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card review p-4 h-100">
+            <div class="mb-2 text-warning">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>“Love the quality. The name embossing looks premium. Ordering more for our welcome kits.”</p>
+            <div class="small text-muted">— Rohit, Startup Founder</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card review p-4 h-100">
+            <div class="mb-2 text-warning">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+            </div>
+            <p>“Great packaging and the colour options are beautiful. Perfect for gifts.”</p>
+            <div class="small text-muted">— Meera</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="py-5 bg-texture text-white">
+    <div class="container text-center">
+      <h3 class="mb-3">Need Custom Corporate Kits?</h3>
+      <p class="lead mb-4">We curate branded boxes with notebooks, pens, bottles, diaries, badges and more.</p>
+      <a href="#contact" class="btn btn-light text-dark rounded-pill px-4">Get a Quote</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="pt-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img src="logo2.png" alt="Krishna Innovation" style="height:100px" class="mb-3"/>
+          <p>Personalized gifts & corporate merchandise crafted with care.</p>
+          <div class="d-flex gap-3 fs-4">
+            <a href="https://www.instagram.com/krishnainnovation/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <h6 class="text-white">Shop</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#categories">Bags</a></li>
+            <li><a href="#categories">Wallets</a></li>
+            <li><a href="#categories">Keychains</a></li>
+            <li><a href="#categories">Pens</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <!-- <h6 class="text-white">Support</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Bulk Orders</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul> -->
+        </div>
+        <div class="col-md-3">
+          <h3 class="text-white">Contact</h6>
+          <ul class="list-unstyled small">
+            <li><i class="bi bi-telephone"></i> +91‑9991114350</li>
+            <li><i class="bi bi-telephone"></i> +91-99965-32625</li>
+            <li><i class="bi bi-envelope"></i> krishnainnovation22@gmail.com</li>
+            <li><i class="bi bi-geo"></i> Karnal, Haryana</li>
+          </ul>
+          <!-- <form class="d-flex mt-2" onsubmit="event.preventDefault(); alert('Subscribed!');">
+            <input type="email" class="form-control me-2" placeholder="Email for offers" required>
+            <button class="btn btn-primary">Join</button>
+          </form> -->
+        </div>
+      </div>
+      <hr class="border-secondary my-4"/>
+      <div class="d-flex justify-content-between small pb-4">
+        <span>© <span id="year"></span> Krishna Innovation. All rights reserved.</span>
+        <span>Made with ♥ in India</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
